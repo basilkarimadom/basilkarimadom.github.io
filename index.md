@@ -8,7 +8,7 @@ header:
     using first-principles density functional theory (DFT).
     My research focuses on catalytic processes and surface reactivity at metal interfaces.
   action:
-    label: "Learn More"
+    label: "Profile"
     url: "/About"
 
 
@@ -18,25 +18,18 @@ sections:
     #background_style: bg-info
     title: Research Topics
     services:
-      - title: Sturdy Templates
-        text: Our templates are updated regularly so they don't break.
+      - title: Computational Method Development
+        text: Development of first-principles computational frameworks for modeling charged adsorbates and surface acidity on periodic metal surfaces.
         icon: bi-gem text-info
-        url: https://startbootstrap.com/
-      - title: Ready to Ship
-        text: You can use this theme as is, or you can make changes!
+      - title: Hydrolysis Reaction Mechanisms
+        text: Density Functional Theory studies of hydrolysis reactions on Au(111) and Ag(111) surfaces with insights into catalytic pathways.
         icon: bi-rocket-takeoff
-      - title: Up to Date
-        text: We update dependencies to keep things fresh.
+      - title: Fenton & Radical Surface Chemistry
+        text: Computational investigation of Fenton-like reactions and radical interactions at metal–water interfaces relevant to environmental catalysis.
         icon: bi-activity
-      - title: Made with Love
-        text: You have to make your websites with love these days!
+      - title: Surface pKa of Adsorbates
+        text: First-principles determination of surface pKa for adsorbates on metal surfaces, providing molecular-level insight into proton transfer and surface acidity at solid–liquid interfaces.
         icon: bi-heart-fill
-      - title: Other 1
-        text: Some not-so long text here.
-        icon: bi-emoji-heart-eyes
-      - title: Other 2
-        text: Some not-so long text here.
-        icon: bi-emoji-sunglasses-fill
     actions:
       - title: Get Started!
         url: '#page-top'
