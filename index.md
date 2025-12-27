@@ -84,5 +84,6 @@ sections:
     - title: LinkedIn
       icon: bi-linkdein
       url: 'https://www.linkedin.com/in/basilkarimadom/'
+      new_window: true
 
 ---
