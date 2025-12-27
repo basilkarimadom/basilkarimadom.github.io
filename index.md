@@ -2,7 +2,6 @@
 layout: home
 header:
   title: Basil Raju Karimadom
-  subtitle: Postdoctoral Researcher : Ben-Gurion University of the Negev, Israel
   text: >
   I am a computational chemist studying reaction mechanisms of surface
   reactions using first-principles density functional theory (DFT).
