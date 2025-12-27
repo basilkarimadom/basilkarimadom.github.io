@@ -82,7 +82,7 @@ sections:
       icon: bi-twitter
       url: 'https://x.com/Basilkarimadom'
     - title: LinkedIn
-      icon: bi-linkdein
+      icon: bi-linkedin
       url: 'https://www.linkedin.com/in/basilkarimadom/'
       new_window: true
 
