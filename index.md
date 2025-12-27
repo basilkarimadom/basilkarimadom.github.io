@@ -1,12 +1,15 @@
 ---
 layout: home
 header:
-  title: YOUR FAVORITE SOURCE OF FREE BOOTSTRAP THEMES
+  title: Basil Raju Karimadom, Ph.D.
+  subtitle: Postdoctoral Researcher : Ben-Gurion University of the Negev, Israel
   text: >
-    Start Bootstrap can help you build better websites using the Bootstrap
-    framework! Just download a theme and start customizing, no strings attached!
+  I am a computational chemist studying reaction mechanisms of surface
+  reactions using first-principles density functional theory (DFT).
+  My research focuses on catalytic processes, surface reactivity,
+  and chemically activated reactions at metal–solution interfaces.
   action: # action button is optional
-    label: Find Out More
+    label: Explore Research
     url: '#about'
 
 
