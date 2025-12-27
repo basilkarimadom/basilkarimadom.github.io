@@ -8,15 +8,15 @@ header:
     using first-principles density functional theory (DFT).
     My research focuses on catalytic processes and surface reactivity at metal interfaces.
   action:
-    label: "Explore More"
+    label: "Learn More"
     url: "/About"
 
 
 sections:
-  - type: services.html
-    section_id: services
+  - type: research.html
+    section_id: Research
     #background_style: bg-info
-    title: At Your Service
+    title: Research Topics
     services:
       - title: Sturdy Templates
         text: Our templates are updated regularly so they don't break.
