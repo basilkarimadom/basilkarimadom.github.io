@@ -5,12 +5,14 @@
 header:
 - title: Home
   url: /#home
-- title: Services
-  url: /#services
-- title: Members
+- title: Profile
+  url: /#profile
+- title: Research
+  url: /#research
+- title: Publications
+  url: /#home
+- title: Team
   url: /#members
-- title: History
-  url: /#timeline
 - title: Contacts
   url: /#contacts
 - title: Links
