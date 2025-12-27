@@ -8,21 +8,11 @@ header:
     using first-principles density functional theory (DFT).
     My research focuses on catalytic processes and surface reactivity at metal interfaces.
   action:
-    label: "Explore Research"
-    url: "/research/"
+    label: "Explore More"
+    url: "/About"
 
 
 sections:
-  - type: call-to-action.html
-    section_id: about
-    background_style: bg-primary
-    title: We've got what you need!
-    text: Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!
-    actions:
-      - title: Get Started!
-        url: '#page-top'
-        class: btn-light
-
   - type: services.html
     section_id: services
     #background_style: bg-info
@@ -47,6 +37,10 @@ sections:
       - title: Other 2
         text: Some not-so long text here.
         icon: bi-emoji-sunglasses-fill
+    actions:
+      - title: Get Started!
+        url: '#page-top'
+        class: btn-light
 
   - type: portfolio.html
     # this section has always ID 'portfolio'
