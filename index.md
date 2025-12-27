@@ -2,7 +2,7 @@
 layout: home
 header:
   title: "Basil Raju Karimadom"
-  title: "Postdoctoral Researcher · Ben-Gurion University of the Negev"
+  subtitle: "Postdoctoral Researcher · Ben-Gurion University of the Negev"
   text: >
     I am a computational chemist studying reaction mechanisms of surface reactions
     using first-principles density functional theory (DFT).
