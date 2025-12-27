@@ -1,13 +1,15 @@
 ---
 layout: home
 header:
-  title: Basil Raju Karimadom
+  title: "Basil Raju Karimadom"
   text: >
-  I am a computational chemist studying reaction mechanisms of surface reactions using first-principles density functional theory (DFT).
-  My research focuses on catalytic processes, surface reactivity, and chemically activated reactions at metal–solution interfaces.
-  action: # action button is optional
-    label: Explore Research
-    url: '#about'
+    Postdoctoral Researcher · Ben-Gurion University of the Negev.
+    I am a computational chemist studying reaction mechanisms of surface reactions
+    using first-principles density functional theory (DFT).
+    My research focuses on catalytic processes and surface reactivity at metal interfaces.
+  action:
+    label: "Explore Research"
+    url: "/research/"
 
 
 sections:
