@@ -10993,13 +10993,15 @@ header.masthead h1, header.masthead .h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
-/* Research action button positioning */
-.research-action-btn {
-  position: absolute;
-  bottom: 25px;        /* move bottom */
-  right: 25px;      /* move RIGHT */
+.research-action-btn{
+  position:absolute;
+  top: auto !important;      /* <-- add this */
+  bottom: 25px !important;
+  right: 25px !important;
+  left: auto !important;
   z-index: 20;
 }
+
 
 /* Custom button shape */
 .btn-research {
@@ -11022,7 +11024,7 @@ header.masthead h1, header.masthead .h1 {
 @media (max-width: 768px) {
   .research-action-btn {
     position: static;
-    margin-top: 20px;
+    margin-top: 25px;
     text-align: center;
   }
 }
