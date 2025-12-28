@@ -3,7 +3,7 @@
     <div class="row g-0">
       {% for proj in section.projects %}
       <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box"
+          <a class="portfolio-link"
              href="{{ proj.url }}"
              {% if proj.new_window %}target="_blank" rel="noopener noreferrer"{% endif %}
              title="{{ proj.title }}">
