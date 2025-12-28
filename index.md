@@ -40,13 +40,14 @@ sections:
     #section_id: portfolio
     #background_style: bg-dark
     projects:
-      - title: Project 1
-        text: This is a very short project description.
+      - title: Applied Surface Science
+        text: Reactions of adsorbed hydrogen peroxide on Ag, Au and Pt noble-metal surfaces
         # the images are located in:
         # img/portfolio/fullsize
         # img/portfolio/thumbnails
         icon: 1.jpg
-        url: '#'
+        url: 'https://doi.org/10.1016/j.apsusc.2025.164689'
+        new_window: true
       - title: Project 2
         text: This is a very short project description.
         icon: 2.jpg
