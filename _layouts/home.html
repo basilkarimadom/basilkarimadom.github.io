@@ -23,19 +23,25 @@ layout: base
 </header>
 
 {% for section in page.sections %}
+  <div
+    {% if section.type == "research.html" %}
+      class="position-relative"
+    {% endif %}
+  >
+
     {% include {{ section.type }} section=section site=site page=page %}
 
     {% if section.type == "research.html" and section.actions %}
-      <div class="container px-4 px-lg-5">
-        <div class="row gx-4 gx-lg-5 justify-content-center">
-          <div class="col-lg-8 text-center mt-4">
-            {% for action in section.actions %}
-              <a class="btn btn-primary btn-xl" href="{{ action.url }}">{{ action.title }}</a>
-            {% endfor %}
-          </div>
-        </div>
+      <div class="research-action-btn">
+        {% for action in section.actions %}
+          <a href="{{ action.url }}" class="btn btn-research">
+            {{ action.title }}
+          </a>
+        {% endfor %}
       </div>
     {% endif %}
+
+  </div>
 {% endfor %}
 
 
