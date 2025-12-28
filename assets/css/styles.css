@@ -11028,3 +11028,53 @@ header.masthead h1, header.masthead .h1 {
     text-align: center;
   }
 }
+/* === Portfolio overlay effect restored for DOI links === */
+
+.portfolio-link {
+  position: relative;
+  display: block;
+}
+
+.portfolio-link img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* overlay container */
+.portfolio-link .portfolio-box-caption {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: rgba(0, 0, 0, 0.6);
+  text-align: center;
+
+  opacity: 0;
+  transition: opacity 0.25s ease-in-out;
+}
+
+/* show overlay on hover */
+.portfolio-link:hover .portfolio-box-caption {
+  opacity: 1;
+}
+
+/* text styling (same feel as before) */
+.portfolio-link .project-category {
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.portfolio-link .project-name {
+  font-size: 1rem;
+  font-weight: 400;
+}
