@@ -10993,3 +10993,25 @@ header.masthead h1, header.masthead .h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+/* Research section action button */
+.research-action-btn {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  z-index: 10;
+}
+
+/* Custom research button style */
+.btn-research {
+  border-radius: 30px;        /* pill shape */
+  padding: 10px 22px;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+  border-width: 2px;
+}
+
+/* Optional hover effect */
+.btn-research:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
