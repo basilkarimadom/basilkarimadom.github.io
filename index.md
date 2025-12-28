@@ -68,8 +68,8 @@ sections:
         icon: 5.jpg
         url: '#'
         new_window: true
-      - title: Physical
-        text: Hydrogen adsorption on various transition metal (111) surfaces in water: a DFT forecast
+      - title: Physical Chemistry Chemical Physics
+        text: "Hydrogen adsorption on various transition metal (111) surfaces in water: a DFT forecast"
         icon: 6.jpg
         url: 'https://doi.org/10.1039/D3CP05884K'
         new_window: true
