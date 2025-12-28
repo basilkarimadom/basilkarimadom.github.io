@@ -80,7 +80,7 @@ sections:
       url: mailto:basilkarimadom@gmail.com
       new_window: true
     - title: X
-      icon: bi-x
+      icon: bi-twitter-x
       url: 'https://x.com/Basilkarimadom'
       new_window: true
     - title: LinkedIn
