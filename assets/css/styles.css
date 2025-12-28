@@ -10993,28 +10993,32 @@ header.masthead h1, header.masthead .h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
-/* Research section action button */
+/* Research action button positioning */
 .research-action-btn {
   position: absolute;
-  top: 30px;
-  right: 30px;
-  z-index: 10;
+  top: 15px;        /* move UP */
+  right: 20px;      /* move RIGHT */
+  z-index: 20;
 }
 
-/* Custom research button style */
+/* Custom button shape */
 .btn-research {
-  border-radius: 30px;        /* pill shape */
-  padding: 10px 22px;
-  font-size: 0.9rem;
+  background: transparent;
+  border: 2px solid #f4623a;   /* same orange as divider */
+  color: #f4623a;
+  border-radius: 25px;
+  padding: 8px 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
   letter-spacing: 0.5px;
-  border-width: 2px;
 }
 
-/* Optional hover effect */
+/* Hover */
 .btn-research:hover {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #f4623a;
+  color: #ffffff;
 }
+
 @media (max-width: 768px) {
   .research-action-btn {
     position: static;
