@@ -31,7 +31,7 @@ sections:
         text: First-principles determination of surface pKa for adsorbates on metal surfaces, providing molecular-level insight into proton transfer and surface acidity at solid–liquid interfaces.
         icon: bi-heart-fill
     actions:
-      - title: Get Started!
+      - title: View Research →
         url: '#page-top'
         class: btn-light
 
