@@ -48,26 +48,31 @@ sections:
         icon: 1.jpg
         url: 'https://doi.org/10.1016/j.apsusc.2025.164689'
         new_window: true
-      - title: Project 2
-        text: This is a very short project description.
+      - title: Physical Chemistry Chemical Physics
+        text: Calculating the adsorption energy of a charged adsorbent in a periodic metallic system–the case of BH 4− hydrolysis on the Ag (111) surface
         icon: 2.jpg
-        url: '#'
-      - title: Project 3
-        text: This is a very short project description.
+        url: 'https://doi.org/10.1039/D1CP03895H'
+        new_window: true
+      - title: The Journal of Physical Chemistry C
+        text: First-Principles Investigation of Surface pKa and the Behavior of Acids at Aqueous–Metal Interfaces
         icon: 3.jpg
-        url: '#'
-      - title: Project 4
-        text: This is a very short project description.
+        url: 'https://doi.org/10.1021/acs.jpcc.4c06554'
+        new_window: true
+      - title: ChemPhysChem
+        text: DFT Study of the BH4− Hydrolysis on Au(111) Surface
         icon: 4.jpg
-        url: '#'
-      - title: Project 5
-        text: This is a very short project description.
+        url: 'https://doi.org/10.1002/cphc.202200069'
+        new_window: true
+      - title: Under Review
+        text: Redox Potentials of Radicals on Metal–Water Interfaces; Diffusion-Controlled Processes in Water are Sometimes Endergonic on Metal Surfaces
         icon: 5.jpg
         url: '#'
-      - title: Project 6
-        text: This is a very short project description.
+        new_window: true
+      - title: Physical Chemistry Chemical Physics
+        text: Hydrogen adsorption on various transition metal (111) surfaces in water: a DFT forecast
         icon: 6.jpg
-        url: '#'
+        url: 'https://doi.org/10.1039/D3CP05884K'
+        new_window: true
 
   - type: contact.html
     section_id: contacts
