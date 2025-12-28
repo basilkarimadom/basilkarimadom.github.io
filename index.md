@@ -79,8 +79,8 @@ sections:
       icon: bi-envelope-fill
       url: mailto:basilkarimadom@gmail.com
       new_window: true
-    - title: Twitter
-      icon: bi-x
+    - title: X
+      icon: bi-twitter-x
       url: 'https://x.com/Basilkarimadom'
       new_window: true
     - title: LinkedIn
