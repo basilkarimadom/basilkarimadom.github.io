@@ -10996,8 +10996,8 @@ header.masthead h1, header.masthead .h1 {
 /* Research action button positioning */
 .research-action-btn {
   position: absolute;
-  top: 15px;        /* move UP */
-  right: 20px;      /* move RIGHT */
+  bottom: 25px;        /* move bottom */
+  right: 25px;      /* move RIGHT */
   z-index: 20;
 }
 
