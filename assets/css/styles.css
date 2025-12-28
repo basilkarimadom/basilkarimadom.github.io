@@ -11015,3 +11015,10 @@ header.masthead h1, header.masthead .h1 {
   background-color: #ffffff;
   color: #000000;
 }
+@media (max-width: 768px) {
+  .research-action-btn {
+    position: static;
+    margin-top: 20px;
+    text-align: center;
+  }
+}
