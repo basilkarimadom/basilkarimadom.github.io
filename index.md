@@ -73,8 +73,12 @@ sections:
     handle: Basilkarimadom
     posts:
       - author: "@Basilkarimadom"
-        text: "New paper on surface pKa at aqueous–metal interfaces now published."
-        url: "https://x.com/Basilkarimadom"
+        text: |
+          Exciting news!
+          Prof. Haya Kornweitz & I are Guest Editing a Special Issue in
+          Molecules (MDPI) on Computational Chemistry in Catalysis & Surface Chemistry.
+          Research and review submissions are invited. #CompChem #DFT #Catalysis
+        url: "https://x.com/Basilkarimadom/status/1983136465732169798?s=20"
       - author: "@Basilkarimadom"
         text: "Recent work: radical redox energetics on metal–water interfaces (DFT)."
         url: "https://x.com/Basilkarimadom"
