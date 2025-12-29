@@ -15,7 +15,6 @@ header:
 sections:
   - type: research.html
     section_id: Research
-    #background_style: bg-info
     title: Research Topics
     services:
       - title: Computational Method Development
@@ -32,63 +31,56 @@ sections:
         icon: bi-heart-fill
     actions:
       - title: View Research →
-        url: '#page-top'
+        url: "#page-top"
         class: btn-light
 
   - type: portfolio.html
-    # this section has always ID 'portfolio'
-    #section_id: portfolio
-    #background_style: bg-dark
     projects:
       - title: Applied Surface Science
         text: Reactions of adsorbed hydrogen peroxide on Ag, Au and Pt noble-metal surfaces
-        # the images are located in:
-        # img/portfolio/fullsize
-        # img/portfolio/thumbnails
         icon: 1.jpg
-        url: 'https://doi.org/10.1016/j.apsusc.2025.164689'
+        url: "https://doi.org/10.1016/j.apsusc.2025.164689"
         new_window: true
       - title: Physical Chemistry Chemical Physics
         text: Calculating the adsorption energy of a charged adsorbent in a periodic metallic system–the case of BH 4− hydrolysis on the Ag (111) surface
         icon: 2.jpg
-        url: 'https://doi.org/10.1039/D1CP03895H'
+        url: "https://doi.org/10.1039/D1CP03895H"
         new_window: true
       - title: The Journal of Physical Chemistry C
         text: First-Principles Investigation of Surface pKa and the Behavior of Acids at Aqueous–Metal Interfaces
         icon: 3.jpg
-        url: 'https://doi.org/10.1021/acs.jpcc.4c06554'
+        url: "https://doi.org/10.1021/acs.jpcc.4c06554"
         new_window: true
       - title: ChemPhysChem
         text: DFT Study of the BH4− Hydrolysis on Au(111) Surface
         icon: 4.jpg
-        url: 'https://doi.org/10.1002/cphc.202200069'
+        url: "https://doi.org/10.1002/cphc.202200069"
         new_window: true
       - title: Under Review
         text: Redox Potentials of Radicals on Metal–Water Interfaces; Diffusion-Controlled Processes in Water are Sometimes Endergonic on Metal Surfaces
         icon: 5.jpg
-        url: '#'
+        url: "#"
         new_window: true
       - title: Physical Chemistry Chemical Physics
         text: "Hydrogen adsorption on various transition metal (111) surfaces in water: a DFT forecast"
         icon: 6.jpg
-        url: 'https://doi.org/10.1039/D3CP05884K'
+        url: "https://doi.org/10.1039/D3CP05884K"
         new_window: true
-   - type: social.html
+
+  - type: social.html
     section_id: social
     title: Latest updates
     handle: Basilkarimadom
     posts:
       - author: "@Basilkarimadom"
-        text: "New paper on surface pKa at aqueous metal interfaces now published in J. Phys. Chem. C."
-        url: "https://x.com/Basilkarimadom/status/XXXXXXXX"
-
+        text: "New paper on surface pKa at aqueous–metal interfaces now published."
+        url: "https://x.com/Basilkarimadom"
       - author: "@Basilkarimadom"
-        text: "Exploring radical redox energetics on metal water interfaces using first-principles DFT."
-        url: "https://x.com/Basilkarimadom/status/YYYYYYYY"
-
+        text: "Recent work: radical redox energetics on metal–water interfaces (DFT)."
+        url: "https://x.com/Basilkarimadom"
       - author: "@Basilkarimadom"
-        text: "Our Counter-Ion Method for charged adsorbates in periodic systems continues to gain attention."
-        url: "https://x.com/Basilkarimadom/status/ZZZZZZZZ"
+        text: "Counter-Ion Method for charged adsorbates in periodic metallic systems."
+        url: "https://x.com/Basilkarimadom"
 
   - type: contact.html
     section_id: contacts
@@ -97,17 +89,17 @@ sections:
       Interested in discussing research ideas or potential collaborations?
       Feel free to reach out via email, and I will get back to you as soon as possible.
     actions:
-    - title: E-Mail
-      icon: bi-envelope-fill
-      url: mailto:basilkarimadom@gmail.com
-      new_window: true
-    - title: X
-      icon: bi-twitter
-      url: 'https://x.com/Basilkarimadom'
-      new_window: true
-    - title: LinkedIn
-      icon: bi-linkedin
-      url: 'https://www.linkedin.com/in/basilkarimadom/'
-      new_window: true
+      - title: E-Mail
+        icon: bi-envelope-fill
+        url: mailto:basilkarimadom@gmail.com
+        new_window: true
+      - title: X
+        icon: bi-twitter
+        url: "https://x.com/Basilkarimadom"
+        new_window: true
+      - title: LinkedIn
+        icon: bi-linkedin
+        url: "https://www.linkedin.com/in/basilkarimadom/"
+        new_window: true
 
 ---
