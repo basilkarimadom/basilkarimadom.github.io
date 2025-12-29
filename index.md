@@ -79,6 +79,7 @@ sections:
     text: Follow my recent posts and announcements.
     handle: Basilkarimadom
     height: 600
+    limit: 3
 
   - type: contact.html
     section_id: contacts
