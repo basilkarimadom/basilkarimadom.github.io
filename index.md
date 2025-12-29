@@ -73,13 +73,22 @@ sections:
         icon: 6.jpg
         url: 'https://doi.org/10.1039/D3CP05884K'
         new_window: true
-  - type: social.html
+   - type: social.html
     section_id: social
-    title: Latest updates on X
-    text: Follow my recent posts and announcements.
+    title: Latest updates
     handle: Basilkarimadom
-    height: 600
-    limit: 3
+    posts:
+      - author: "@Basilkarimadom"
+        text: "New paper on surface pKa at aqueous–metal interfaces now published in J. Phys. Chem. C."
+        url: "https://x.com/Basilkarimadom/status/XXXXXXXX"
+
+      - author: "@Basilkarimadom"
+        text: "Exploring radical redox energetics on metal–water interfaces using first-principles DFT."
+        url: "https://x.com/Basilkarimadom/status/YYYYYYYY"
+
+      - author: "@Basilkarimadom"
+        text: "Our Counter-Ion Method for charged adsorbates in periodic systems continues to gain attention."
+        url: "https://x.com/Basilkarimadom/status/ZZZZZZZZ"
 
   - type: contact.html
     section_id: contacts
