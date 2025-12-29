@@ -79,11 +79,11 @@ sections:
     handle: Basilkarimadom
     posts:
       - author: "@Basilkarimadom"
-        text: "New paper on surface pKa at aqueous–metal interfaces now published in J. Phys. Chem. C."
+        text: "New paper on surface pKa at aqueous metal interfaces now published in J. Phys. Chem. C."
         url: "https://x.com/Basilkarimadom/status/XXXXXXXX"
 
       - author: "@Basilkarimadom"
-        text: "Exploring radical redox energetics on metal–water interfaces using first-principles DFT."
+        text: "Exploring radical redox energetics on metal water interfaces using first-principles DFT."
         url: "https://x.com/Basilkarimadom/status/YYYYYYYY"
 
       - author: "@Basilkarimadom"
