@@ -1,0 +1,25 @@
+<section id="{{ include.section.section_id | default: 'social' }}" class="page-section">
+  <div class="container">
+    {% if include.section.title %}
+      <h2 class="text-center mt-0">{{ include.section.title }}</h2>
+      <hr class="divider" />
+    {% endif %}
+
+    {% if include.section.text %}
+      <p class="text-muted text-center mb-4">{{ include.section.text }}</p>
+    {% endif %}
+
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <a class="twitter-timeline"
+           data-height="{{ include.section.height | default: 600 }}"
+           data-dnt="true"
+           href="https://x.com/{{ include.section.handle | default: 'Basilkarimadom' }}">
+          Posts by {{ include.section.handle | default: 'Basilkarimadom' }}
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</section>
