@@ -80,11 +80,19 @@ sections:
           Research and review submissions are invited. #CompChem #DFT #Catalysis
         url: "https://x.com/Basilkarimadom/status/1983136465732169798?s=20"
       - author: "@Basilkarimadom"
-        text: "Recent work: radical redox energetics on metal–water interfaces (DFT)."
-        url: "https://x.com/Basilkarimadom"
+        text: |
+          Thrilled to share my first paper as a corresponding author in Applied Surface Science!
+          We studied how H₂O₂ interacts and reacts on noble metal surfaces,
+          offering fresh insights into catalytic processes
+          at noble metal–water interfaces.
+        url: "https://x.com/Basilkarimadom/status/1970417390447140938?s=20"
       - author: "@Basilkarimadom"
-        text: "Counter-Ion Method for charged adsorbates in periodic metallic systems."
-        url: "https://x.com/Basilkarimadom"
+        text: |
+          Our recent Communication has been published in PCCP.
+          We investigate the role of radicals in the formation of charged nanoparticles
+          using computational studies, providing new mechanistic insights
+          into surface reactions on metal nanoparticles. #PCCP
+        url: "https://x.com/Basilkarimadom/status/1967601293629018128?s=20"
 
   - type: contact.html
     section_id: contacts
