@@ -5,8 +5,70 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "member-box",
-        "timeline",
-        "page",
-        "icons"
+  "member-box",
+  "timeline",
+  "page",
+  "icons"
 ;
+
+/* ================================
+   Contact Section – Dark Gradient Theme
+   ================================ */
+
+#contacts {
+  background: linear-gradient(135deg, #0f172a 0%, #0b1224 55%, #070d1a 100%);
+  color: #f8fafc;
+  padding: 6rem 0;
+}
+
+/* Text */
+#contacts h2,
+#contacts p {
+  color: #f8fafc;
+}
+
+/* Divider line (if present in theme) */
+#contacts .divider {
+  background-color: #f8fafc;
+}
+
+/* Buttons */
+#contacts .btn {
+  color: #f8fafc;
+  border-color: #f8fafc;
+  transition: transform 180ms ease,
+              box-shadow 180ms ease,
+              background-color 180ms ease,
+              color 180ms ease;
+}
+
+#contacts .btn:hover {
+  background-color: #f8fafc;
+  color: #0f172a;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.25);
+}
+
+#contacts .btn:active {
+  transform: translateY(0);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.22);
+}
+
+/* Icons */
+#contacts i {
+  color: inherit;
+}
+
+/* Subtle icon motion */
+#contacts .btn i {
+  transition: transform 180ms ease;
+}
+
+#contacts .btn:hover i {
+  transform: translateX(2px);
+}
+
+/* Safety: links stay readable */
+#contacts a {
+  color: #f8fafc;
+}
