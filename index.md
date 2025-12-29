@@ -73,6 +73,12 @@ sections:
         icon: 6.jpg
         url: 'https://doi.org/10.1039/D3CP05884K'
         new_window: true
+  - type: social.html
+    section_id: social
+    title: Latest updates on X
+    text: Follow my recent posts and announcements.
+    handle: Basilkarimadom
+    height: 600
 
   - type: contact.html
     section_id: contacts
