@@ -31,7 +31,7 @@ sections:
         icon: bi-heart-fill
     actions:
       - title: View Research →
-        url: "#page-top"
+        url: "/publications"
         class: btn-light
 
   - type: portfolio.html
