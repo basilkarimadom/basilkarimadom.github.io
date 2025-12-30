@@ -1,5 +1,44 @@
-<!-- Publications List -->
-<section class="pub-list-section">
+<!-- Publications Banner -->
+<section class="pub-banner" style="--pubBannerImg: url('/assets/img/banners/publications-banner.jpg');">
+  <div class="container pub-banner__inner">
+    <h1 class="pub-banner__title">Publications</h1>
+  </div>
+</section>
+
+<!-- Cover Pages Section -->
+<section class="pub-covers">
+  <div class="container">
+    <h2 class="pub-section-title">Covers</h2>
+
+    <div class="pub-covers-grid">
+      {% for c in site.data.covers %}
+        <article class="pub-cover-card">
+          <a class="pub-cover-imgwrap" href="{{ c.url }}" target="_blank" rel="noopener">
+            <img src="{{ c.image }}" alt="{{ c.title | escape }}">
+          </a>
+
+          <div class="pub-cover-meta">
+            <div class="pub-cover-title">{{ c.title }}</div>
+            <div class="pub-cover-sub">{{ c.journal }} • {{ c.year }}</div>
+
+            {% if c.url %}
+              <a class="pub-mini-link" href="{{ c.url }}" target="_blank" rel="noopener">
+                View paper →
+              </a>
+            {% endif %}
+          </div>
+        </article>
+      {% endfor %}
+
+      <!-- empty slots to keep 4-column spacing -->
+      <div class="pub-cover-slot-empty" aria-hidden="true"></div>
+      <div class="pub-cover-slot-empty" aria-hidden="true"></div>
+    </div>
+  </div>
+</section>
+
+<!-- Peer-Reviewed Publications -->
+<section class="pub-list-section" id="peer-reviewed">
   <div class="container">
     <h2 class="pub-section-title">Peer-Reviewed Publications</h2>
 
