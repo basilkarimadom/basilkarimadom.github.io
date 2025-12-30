@@ -1,0 +1,81 @@
+<!-- Publications Banner -->
+<section class="pub-banner" style="--pubBannerImg: url('/assets/img/banners/publications-banner.jpg');">
+  <div class="container pub-banner__inner">
+    <h1 class="pub-banner__title">Publications</h1>
+  </div>
+</section>
+
+<!-- Cover Pages Section -->
+<section class="pub-covers">
+  <div class="container">
+    <h2 class="pub-section-title">Covers</h2>
+
+    <div class="pub-covers-grid">
+      {% for c in site.data.covers %}
+        <article class="pub-cover-card">
+          <a class="pub-cover-imgwrap" href="{{ c.url }}" target="_blank" rel="noopener">
+            <img src="{{ c.image }}" alt="{{ c.title | escape }}">
+          </a>
+
+          <div class="pub-cover-meta">
+            <div class="pub-cover-title">{{ c.title }}</div>
+            <div class="pub-cover-sub">{{ c.journal }} • {{ c.year }}</div>
+
+            {% if c.url %}
+              <a class="pub-mini-link" href="{{ c.url }}" target="_blank" rel="noopener">
+                View paper →
+              </a>
+            {% endif %}
+          </div>
+        </article>
+      {% endfor %}
+
+      <!-- empty slots to keep 4-column spacing -->
+      <div class="pub-cover-slot-empty" aria-hidden="true"></div>
+      <div class="pub-cover-slot-empty" aria-hidden="true"></div>
+    </div>
+  </div>
+</section>
+
+<!-- Publications List -->
+<section class="pub-list-section">
+  <div class="container">
+    <h2 class="pub-section-title">Peer-Reviewed Publications</h2>
+
+    {% assign pubs = site.data.publications | sort: "year" | reverse %}
+
+    <div class="pub-list">
+      {% for p in pubs %}
+        <article class="pub-item">
+          <div class="pub-item-left">
+            <div class="pub-item-title">
+              <span class="pub-num">{{ forloop.index }}.</span>
+              {{ p.title }}
+            </div>
+
+            <div class="pub-item-sub">
+              <span class="pub-journal">{{ p.journal }}</span>
+              <span class="pub-dot">•</span>
+              <span class="pub-year">{{ p.year }}</span>
+
+              {% if p.url %}
+                <span class="pub-dot">•</span>
+                <a class="pub-link" href="{{ p.url }}" target="_blank" rel="noopener">
+                  Link
+                </a>
+              {% endif %}
+            </div>
+          </div>
+
+          <div class="pub-item-right">
+            {% if p.ga %}
+              <a class="pub-ga" href="{{ p.url | default: p.ga }}" target="_blank" rel="noopener">
+                <img src="{{ p.ga }}" alt="Graphical abstract">
+              </a>
+            {% endif %}
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
