@@ -232,3 +232,26 @@
 @media (max-width: 900px) {
   .pub-ga img { height: 220px; }
 }
+/* Banner title spacing + underline */
+.pub-banner__inner {
+  padding-top: 3.5rem;   /* pushes text away from navbar */
+  padding-bottom: 1.5rem;
+}
+
+.pub-banner__title--underline {
+  position: relative;
+  display: inline-block;
+  padding-bottom: .6rem;
+}
+
+.pub-banner__title--underline::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 72px;
+  height: 3px;
+  background: rgba(248, 250, 252, 0.85); /* soft white */
+  border-radius: 2px;
+}
