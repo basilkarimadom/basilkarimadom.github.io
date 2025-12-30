@@ -4,14 +4,14 @@
 
 .pub-banner {
   position: relative;
-  padding: 5.5rem 0;
+  padding: 3.5rem 0; /* stripe feel */
   background:
-    linear-gradient(180deg, rgba(2,6,23,.82), rgba(15,23,42,.92)),
+    linear-gradient(180deg, rgba(2,6,23,.78), rgba(15,23,42,.90)),
     var(--pubBannerImg);
   background-size: cover;
   background-position: center;
-  overflow: hidden;
 }
+
 
 .pub-banner::after {
   content: "";
