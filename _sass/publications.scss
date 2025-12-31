@@ -57,10 +57,11 @@
 /* Covers grid (space like 4 slots) */
 .pub-covers-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 1.3rem;
-  align-items: start;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 280px));
+  gap: 1.6rem;
+  justify-content: start; /* leaves empty space to the right */
 }
+
 
 @media (max-width: 1100px) {
   .pub-covers-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -136,13 +137,7 @@
   border-color: rgba(56,189,248,.35);
 }
 
-.pub-cover-slot-empty {
-  border-radius: 18px;
-  border: 1px dashed rgba(255,255,255,.12);
-  background: rgba(255,255,255,.02);
-  height: 100%;
-  min-height: 420px;
-}
+
 
 /* Publications list */
 .pub-list {
