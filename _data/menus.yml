@@ -13,7 +13,8 @@ header:
   url: /publications
 - title: Team
   url: /#members
+- title: Gallery
+  url: /links
 - title: Contacts
   url: /#contacts
-- title: Links
-  url: /links
+
