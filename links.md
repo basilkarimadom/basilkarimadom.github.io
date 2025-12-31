@@ -1,28 +1,16 @@
 ---
 layout: page
 title: Gallery
-#background_style: bg-info
-background_image: url('assets/img/backgrounds/image-from-rawpixel-id-1199650-jpeg.jpg')
-# Add a link to the the top menu
+background_image: url('/assets/img/backgrounds/image-from-rawpixel-id-1199650-jpeg.jpg')
+
 menus:
   header:
     title: Gallery
     weight: 2
 
 sections:
-- type: address.html
-  section_id: address
-  title: You are welcome!
-  map: https://www.google.com/maps/
-  address:
-    title: Address
-    text: >
-      45 
-  phone:
-    title: Phones
-    text: >
-      +1 (
-
-
+  - type: gallery.html
+    section_id: gallery
+    title: Posters & Conferences
+    subtitle: "Snapshots from posters, talks, and conferences."
 ---
-Here goes some raw markdown content.
