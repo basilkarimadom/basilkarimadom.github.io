@@ -1,0 +1,70 @@
+/* ================================
+   Gallery
+   ================================ */
+
+.gallery-section {
+  background: #0f172a;
+  color: #f8fafc;
+}
+
+/* 4 per row desktop, 2 tablet, 1 mobile */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 1100px) {
+  .gallery-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 620px) {
+  .gallery-grid { grid-template-columns: 1fr; }
+}
+
+.gallery-card {
+  margin: 0;
+}
+
+.gallery-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Instagram-style square tile that works for portrait + landscape */
+.gallery-frame {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,.10);
+  background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03));
+  box-shadow: 0 10px 26px rgba(0,0,0,.16);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform .18s ease, border-color .18s ease;
+}
+
+/* show the whole image (no cropping) */
+.gallery-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  padding: .6rem; /* gives nice breathing space for posters */
+  filter: saturate(1.02);
+}
+
+.gallery-frame:hover {
+  transform: translateY(-3px);
+  border-color: rgba(56,189,248,.35);
+}
+
+.gallery-caption {
+  margin-top: .6rem;
+  font-size: .92rem;
+  color: rgba(248,250,252,.78);
+  line-height: 1.35;
+}
