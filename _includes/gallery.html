@@ -8,8 +8,10 @@
       <hr class="divider" />
     </div>
 
-    <div class="gallery-grid">
-      {% for item in site.data.gallery %}
+    {% assign items = site.data[section.data] %}
+
+    <div class="gallery-grid" data-gallery="{{ section.section_id }}">
+      {% for item in items %}
         <figure class="gallery-card">
           <a href="{{ item.image }}" class="gallery-link" title="{{ item.caption | escape }}">
             <div class="gallery-frame">
@@ -24,3 +26,21 @@
     </div>
   </div>
 </section>
+
+<script>
+  window.addEventListener("load", function () {
+    if (window.SimpleLightbox) {
+      // one gallery per section (conferences and posters separate)
+      document.querySelectorAll('.gallery-grid[data-gallery]').forEach(function(grid){
+        new SimpleLightbox(grid.querySelectorAll('a.gallery-link'), {
+          captions: true,
+          captionSelector: 'self',
+          captionType: 'attr',
+          captionAttribute: 'title',
+          close: true,
+          showCounter: true
+        });
+      });
+    }
+  });
+</script>
