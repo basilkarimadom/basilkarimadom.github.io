@@ -1,0 +1,26 @@
+<section id="{{ section.section_id }}" class="page-section gallery-section">
+  <div class="container">
+    <div class="text-center">
+      <h2 class="mt-0">{{ section.title }}</h2>
+      {% if section.subtitle %}
+        <p class="text-white-75 mb-4">{{ section.subtitle }}</p>
+      {% endif %}
+      <hr class="divider" />
+    </div>
+
+    <div class="gallery-grid">
+      {% for item in site.data.gallery %}
+        <figure class="gallery-card">
+          <a href="{{ item.image }}" class="gallery-link" title="{{ item.caption | escape }}">
+            <div class="gallery-frame">
+              <img src="{{ item.image }}" alt="{{ item.caption | escape }}">
+            </div>
+          </a>
+          {% if item.caption %}
+            <figcaption class="gallery-caption">{{ item.caption }}</figcaption>
+          {% endif %}
+        </figure>
+      {% endfor %}
+    </div>
+  </div>
+</section>
