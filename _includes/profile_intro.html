@@ -1,0 +1,25 @@
+<section class="page-section {{ section.background_style }}">
+  <div class="container px-4 px-lg-5">
+    <div class="row align-items-center gx-5 gy-4">
+
+      <div class="col-lg-4 text-center">
+        <img
+          src="{{ section.image }}"
+          alt="Profile portrait"
+          class="img-fluid rounded-4 shadow"
+          style="max-width: 260px;"
+        />
+        {% if section.tagline %}
+          <div class="mt-3 text-white-75 small">{{ section.tagline }}</div>
+        {% endif %}
+      </div>
+
+      <div class="col-lg-8">
+        <p class="text-white-75 mb-0" style="font-size: 1.05rem; line-height: 1.8;">
+          {{ section.text }}
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
