@@ -11166,10 +11166,10 @@ header.masthead h1, header.masthead .h1 {
 
 /* LOGO ONLY (no circle, no border) */
 .timeline-logo{
-  width: 92px;          /* adjust if you want bigger/smaller */
-  height: 92px;
+  width: 180px;          /* adjust if you want bigger/smaller */
+  height: 180px;
   object-fit: contain;
-  filter: drop-shadow(0 10px 18px rgba(0,0,0,0.20));
+  filter: drop-shadow(0 14px 28px rgba(0,0,0,0.22));
 }
 
 /* Responsive */
