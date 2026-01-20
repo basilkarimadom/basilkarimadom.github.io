@@ -14,7 +14,7 @@ sections:
       energy-related applications. This page provides a short overview of his academic journey and
       professional profiles online.
 
-  - type: profile_timeline.html
+  - type: timeline.html
     background_style: bg-primary
     section_id: journey
     actions:
