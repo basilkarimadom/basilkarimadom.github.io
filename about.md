@@ -18,22 +18,22 @@ sections:
     background_style: bg-primary
     section_id: journey
     actions:
-      - title: "BSc"
-        institute: "XYZ Institute"
-        year: "2015"
-        logo: "/assets/img/logos/bsc.png"
-      - title: "MSc"
-        institute: "XYZ Institute"
-        year: "2017"
-        logo: "/assets/img/logos/msc.png"
+      - title: "BSc. Chemistry"
+        institute: "Sacred Heart College, Kochi IN"
+        year: "2014-17"
+        logo: "/assets/img/logos/SHC_logo.png"
+      - title: "MSc. Pharmaceutical Chemistry"
+        institute: "Sacred Heart College, Kochi IN"
+        year: "2017-19"
+        logo: "/assets/img/logos/SHC_logo.png"
       - title: "PhD"
-        institute: "XYZ Institute"
-        year: "2019"
-        logo: "/assets/img/logos/phd.png"
+        institute: "Ariel University"
+        year: "2020-24"
+        logo: "/assets/img/logos/ariel_logo.png"
       - title: "Postdoc"
-        institute: "XYZ Institute"
-        year: "2024"
-        logo: "/assets/img/logos/postdoc.png"
+        institute: "Ben-Gurion University of the Negev"
+        year: "2024-26"
+        logo: "/assets/img/logos/bgu_logo.png"
 
     last_image: /assets/img/profile/timeline/end.png
 
