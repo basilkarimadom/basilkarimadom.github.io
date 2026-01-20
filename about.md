@@ -13,8 +13,8 @@ sections:
 
       Basil completed his Bachelor’s degree in Chemistry in 2017 from Sacred Heart
       College, Kochi, affiliated with Mahatma Gandhi University, Kerala, and earned
-      his Master’s degree in Pharmaceutical Chemistry from the same institution in
-      2019. During his master’s studies, he gained additional research experience as
+      his Master’s degree in Pharmaceutical Chemistry from the same institution in 2019.
+      During his master’s studies, he gained additional research experience as
       a project student at the Indian Institute of Technology Kharagpur, where he was
       exposed to advanced research methodologies and academic environments.
 
