@@ -25,7 +25,7 @@ sections:
         icon: bi-h-circle
       - title: Fenton & Radical Surface Chemistry
         text: Computational investigation of Fenton-like reactions and radical interactions at metal–water interfaces relevant to environmental catalysis.
-        icon:  bi-flask-florence
+        icon:  bi-tree
       - title: Surface pKa of Adsorbates
         text: First-principles determination of surface pKa for adsorbates on metal surfaces, providing molecular-level insight into proton transfer and surface acidity at solid–liquid interfaces.
         icon: bi-hourglass-split
