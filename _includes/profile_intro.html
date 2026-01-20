@@ -2,15 +2,16 @@
   <div class="container px-4 px-lg-5">
     <div class="row align-items-center gx-5 gy-4">
 
-      <div class="col-lg-4 text-center">
+      <div class="col-md-4 col-lg-4 text-center">
         <img
           src="{{ section.image }}"
           alt="Profile portrait"
           class="img-fluid rounded-4 shadow"
           style="max-width: 260px;"
         />
+      </div>
 
-      <div class="col-lg-8">
+      <div class="col-md-8 col-lg-8">
         <div class="text-white-75 profile-intro-text">
           {{ section.text | markdownify }}
         </div>
