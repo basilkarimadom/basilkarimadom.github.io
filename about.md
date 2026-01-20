@@ -59,11 +59,11 @@ sections:
     background_style: bg-dark
     items:
       - name: X
-        icon: bi-twitter
+        icon: bi bi-twitter
         url: "https://x.com/Basilkarimadom"
 
       - name: LinkedIn
-        icon: bi-linkedin
+        icon: bi bi-linkedin
         url: "https://linkedin.com/in/basilkarimadom"
 
       - name: ORCID
