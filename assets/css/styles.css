@@ -11200,3 +11200,7 @@ header.masthead h1, header.masthead .h1 {
   margin-top: 0.75rem;
   margin-bottom: 0.25rem;
 }
+.profile-intro-strip{
+  padding-top: 1.75rem !important;
+  padding-bottom: 1.75rem !important;
+}
