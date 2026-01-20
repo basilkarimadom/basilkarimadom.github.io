@@ -59,18 +59,18 @@ sections:
     background_style: bg-dark
     items:
       - name: X
-        icon: bi-twitter-x
-        url: "https://x.com/xyz"
+        icon: bi-twitter
+        url: "https://x.com/Basilkarimadom"
 
       - name: LinkedIn
         icon: bi-linkedin
-        url: "https://linkedin.com/in/xyz"
+        url: "https://linkedin.com/in/basilkarimadom"
 
       - name: ORCID
-        icon: bi-person-badge
-        url: "https://orcid.org/0000-0000-0000-0000"
+        icon: ai-orcid
+        url: "https://orcid.org/0000-0002-1674-7796"
 
       - name: Web of Science
-        icon: bi-journal
-        url: "https://www.webofscience.com/wos/author/record/xyz"
+        icon: ai-researcherid
+        url: "https://www.webofscience.com/wos/author/record/JTU-5476-2023"
 ---
