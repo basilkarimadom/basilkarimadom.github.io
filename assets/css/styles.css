@@ -11204,3 +11204,8 @@ header.masthead h1, header.masthead .h1 {
   padding-top: 1.75rem !important;
   padding-bottom: 1.75rem !important;
 }
+/* Icons stripe: make it a thin ribbon */
+.profile-links-strip{
+  padding-top: 0.9rem !important;
+  padding-bottom: 0.9rem !important;
+}
