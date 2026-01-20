@@ -1,0 +1,47 @@
+title: "Profile"
+
+intro:
+  background_style: "bg-gradient-1"
+  image: "/assets/img/profile/profile.jpg"
+  name: "Basil Raju"
+  tagline: "Postdoctoral Researcher • Computational Chemistry"
+  summary: >
+    Basil Raju is a researcher working in the area of computational chemistry and materials science.
+    His work broadly focuses on understanding chemical processes at interfaces and exploring how
+    surface interactions influence reactivity and selectivity. He is interested in translating
+    fundamental insights into practical directions for catalysis and energy-related applications.
+    This page provides a quick overview of his academic path and online academic profiles.
+
+timeline:
+  background_style: "bg-gradient-2"
+  section_id: "journey"
+  actions:
+    - title: "BSc"
+      text: "XYZ Institute<br>20XX – 20XX"
+      image: "/assets/img/profile/timeline/bsc.png"
+    - title: "MSc"
+      text: "XYZ Institute<br>20XX – 20XX"
+      image: "/assets/img/profile/timeline/msc.png"
+    - title: "PhD"
+      text: "XYZ Institute<br>20XX – 20XX"
+      image: "/assets/img/profile/timeline/phd.png"
+    - title: "Postdoc"
+      text: "XYZ Institute<br>20XX – Present"
+      image: "/assets/img/profile/timeline/postdoc.png"
+  last_image: "/assets/img/profile/timeline/end.png"
+
+links:
+  background_style: "bg-gradient-3"
+  items:
+    - name: "X"
+      icon: "bi bi-twitter-x"
+      url: "https://x.com/xyz"
+    - name: "LinkedIn"
+      icon: "bi bi-linkedin"
+      url: "https://linkedin.com/in/xyz"
+    - name: "ORCID"
+      icon: "ai ai-orcid"
+      url: "https://orcid.org/0000-0000-0000-0000"
+    - name: "Web of Science"
+      icon: "bi bi-journal"
+      url: "https://www.webofscience.com/wos/author/record/xyz"
