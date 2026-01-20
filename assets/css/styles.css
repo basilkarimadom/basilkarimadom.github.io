@@ -11209,3 +11209,8 @@ header.masthead h1, header.masthead .h1 {
   padding-top: 0.9rem !important;
   padding-bottom: 0.9rem !important;
 }
+/* Push Profile header down away from navbar */
+.profile-header{
+  padding-top: 5.5rem !important;  /* ~3–4 lines */
+  padding-bottom: 1.2rem !important;
+}
