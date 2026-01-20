@@ -19,7 +19,7 @@ sections:
     services:
       - title: Computational Method Development
         text: Development of first-principles computational frameworks for modeling charged adsorbates and surface acidity on periodic metal surfaces.
-        icon: bi-gem text-info
+        icon: bi-bricks
       - title: Hydrolysis Reaction Mechanisms
         text: Density Functional Theory studies of hydrolysis reactions on Au(111) and Ag(111) surfaces with insights into catalytic pathways.
         icon: bi-rocket-takeoff
