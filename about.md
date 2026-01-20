@@ -6,31 +6,30 @@ sections:
   - type: profile_intro.html
     background_style: bg-dark
     image: /assets/img/profile/profile.jpg
-    tagline: "Postdoctoral Researcher · XYZ Institute"
-    text: >
-      Born in Kerala, India, in 1997, Basil Raju Karimadom is a computational chemist
-      working in the field of theoretical and surface chemistry. He is currently a
-      postdoctoral researcher at Ben-Gurion University of the Negev, Israel.
+  text: |
+    Born in Kerala, India, in 1997, Basil Raju Karimadom is a computational chemist
+    working in the field of theoretical and surface chemistry. He is currently a
+    postdoctoral researcher at Ben-Gurion University of the Negev, Israel.
 
-      Basil completed his Bachelor’s degree in Chemistry in 2017 from Sacred Heart
-      College, Kochi, affiliated with Mahatma Gandhi University, Kerala, and earned
-      his Master’s degree in Pharmaceutical Chemistry from the same institution in
-      2019. During his master’s studies, he gained additional research experience as
-      a project student at the Indian Institute of Technology Kharagpur, where he was
-      exposed to advanced research methodologies and academic environments.
+    Basil completed his Bachelor’s degree in Chemistry in 2017 from Sacred Heart
+    College, Kochi, affiliated with Mahatma Gandhi University, Kerala, and earned
+    his Master’s degree in Pharmaceutical Chemistry from the same institution in
+    2019. During his master’s studies, he gained additional research experience as
+    a project student at the Indian Institute of Technology Kharagpur, where he was
+    exposed to advanced research methodologies and academic environments.
 
-      In 2020, Basil joined the research group of Prof. Haya Kornweitz to pursue his
-      doctoral studies, completing his PhD in 2024. His doctoral research focused on
-      computational investigations of surface reactions using first-principles
-      density functional theory, with particular emphasis on reaction mechanisms and
-      interfacial chemistry on metal surfaces.
+    In 2020, Basil joined the research group of Prof. Haya Kornweitz to pursue his
+    doctoral studies, completing his PhD in 2024. His doctoral research focused on
+    computational investigations of surface reactions using first-principles
+    density functional theory, with particular emphasis on reaction mechanisms and
+    interfacial chemistry on metal surfaces.
 
-      Following the completion of his PhD, Basil joined Ben-Gurion University of the
-      Negev in 2024 as a postdoctoral researcher in the group of Prof. Dan Meyerstein.
-      His current research continues to explore fundamental aspects of surface
-      reactivity and catalytic processes, with the broader goal of developing
-      mechanistic understanding and theoretical frameworks relevant to heterogeneous
-      catalysis and metal–water interfaces.
+    Following the completion of his PhD, Basil joined Ben-Gurion University of the
+    Negev in 2024 as a postdoctoral researcher in the group of Prof. Dan Meyerstein.
+    His current research continues to explore fundamental aspects of surface
+    reactivity and catalytic processes, with the broader goal of developing
+    mechanistic understanding and theoretical frameworks relevant to heterogeneous
+    catalysis and metal–water interfaces.
 
   - type: timeline.html
     background_style: bg-primary
