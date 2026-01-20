@@ -11082,7 +11082,7 @@ header.masthead h1, header.masthead .h1 {
 
 .timeline-ribbon-wrap{
   position: relative;
-  padding: 1.6rem 0;
+  padding: 1.0rem 0;
 }
 
 .timeline-ribbon{
@@ -11213,4 +11213,9 @@ header.masthead h1, header.masthead .h1 {
 .profile-header{
   padding-top: 5.5rem !important;  /* ~3–4 lines */
   padding-bottom: 1.2rem !important;
+}
+/* Make timeline section a compact strip */
+.profile-timeline-strip{
+  padding-top: 1.1rem !important;
+  padding-bottom: 1.1rem !important;
 }
