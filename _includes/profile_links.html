@@ -1,0 +1,19 @@
+<section class="page-section {{ section.background_style }}">
+  <div class="container px-4 px-lg-5">
+    <div class="d-flex justify-content-center gap-4 flex-wrap">
+      {% for item in section.items %}
+        <a
+          href="{{ item.url }}"
+          target="_blank"
+          rel="noopener"
+          class="text-white-75 text-decoration-none"
+          style="font-size: 2rem;"
+          aria-label="{{ item.name }}"
+          title="{{ item.name }}"
+        >
+          <i class="bi {{ item.icon }}"></i>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
