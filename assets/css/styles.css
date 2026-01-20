@@ -11078,3 +11078,138 @@ header.masthead h1, header.masthead .h1 {
   font-size: 1rem;
   font-weight: 400;
 }
+/* ---- Horizontal Ribbon Timeline ---- */
+.timeline-ribbon-wrap{
+  position: relative;
+  padding: 3.5rem 0 2.5rem 0;
+}
+
+/* The central ribbon bar */
+.timeline-ribbon{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 14px;
+  transform: translateY(-50%);
+  border-radius: 999px;
+  background: linear-gradient(90deg, #1aa6a6 0%, #2b7bbf 50%, #6a5bd6 100%);
+  opacity: 0.95;
+}
+
+/* Arrow head at the right end (newest side) */
+.timeline-ribbon::after{
+  content: "";
+  position: absolute;
+  right: -22px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 18px solid transparent;
+  border-bottom: 18px solid transparent;
+  border-left: 22px solid #6a5bd6;
+}
+
+/* Items laid out across the ribbon */
+.timeline-ribbon-items{
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25rem;
+  align-items: center;
+}
+
+/* Each milestone */
+.timeline-item{
+  position: relative;
+  min-height: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Top vs bottom arrangement */
+.timeline-item.is-top{
+  justify-content: flex-end;
+  padding-bottom: 1.2rem;
+}
+.timeline-item.is-bottom{
+  justify-content: flex-start;
+  padding-top: 1.2rem;
+}
+
+/* Connector line from ribbon to circle */
+.timeline-dotline{
+  width: 2px;
+  height: 44px;
+  background: rgba(255,255,255,0.45);
+}
+
+/* Circle with logo */
+.timeline-circle{
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.92);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.20);
+  overflow: hidden;
+}
+.timeline-circle img{
+  width: 72%;
+  height: 72%;
+  object-fit: contain;
+}
+
+/* Text block (matches your "keep text style same") */
+.timeline-content{
+  text-align: center;
+  max-width: 220px;
+  margin-bottom: 0.75rem;
+}
+.timeline-item.is-bottom .timeline-content{
+  margin-bottom: 0;
+  margin-top: 0.75rem;
+}
+
+.timeline-year{
+  font-size: 2.25rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #ffffff;
+  line-height: 1;
+  margin-bottom: 0.35rem;
+}
+.timeline-title{
+  font-weight: 700;
+}
+.timeline-inst{
+  opacity: 0.9;
+}
+
+/* Responsive: stack nicely on mobile */
+@media (max-width: 992px){
+  .timeline-ribbon-items{
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+  }
+  .timeline-item{ min-height: 220px; }
+}
+@media (max-width: 576px){
+  .timeline-ribbon{
+    display: none; /* cleaner on very small screens */
+  }
+  .timeline-ribbon-items{
+    grid-template-columns: 1fr;
+  }
+  .timeline-dotline{
+    display: none;
+  }
+  .timeline-item{
+    min-height: auto;
+    padding: 1rem 0;
+  }
+}
