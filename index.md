@@ -19,16 +19,16 @@ sections:
     services:
       - title: Computational Method Development
         text: Development of first-principles computational frameworks for modeling charged adsorbates and surface acidity on periodic metal surfaces.
-        icon: bi-bricks
+        icon: bi-bug
       - title: Hydrolysis Reaction Mechanisms
         text: Density Functional Theory studies of hydrolysis reactions on Au(111) and Ag(111) surfaces with insights into catalytic pathways.
-        icon: bi-rocket-takeoff
+        icon: bi-h-circle
       - title: Fenton & Radical Surface Chemistry
         text: Computational investigation of Fenton-like reactions and radical interactions at metal–water interfaces relevant to environmental catalysis.
-        icon: bi-activity
+        icon:  bi-flask-florence
       - title: Surface pKa of Adsorbates
         text: First-principles determination of surface pKa for adsorbates on metal surfaces, providing molecular-level insight into proton transfer and surface acidity at solid–liquid interfaces.
-        icon: bi-heart-fill
+        icon: bi-hourglass-split
     actions:
       - title: View Research →
         url: "/publications"
