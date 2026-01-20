@@ -20,23 +20,20 @@ sections:
     actions:
       - title: "BSc"
         institute: "XYZ Institute"
-        year: "20XX – 20XX"
-        image: /assets/img/profile/timeline/bsc.png
-
+        year: "2015"
+        logo: "/assets/img/logos/bsc.png"
       - title: "MSc"
         institute: "XYZ Institute"
-        year: "20XX – 20XX"
-        image: /assets/img/profile/timeline/msc.png
-
+        year: "2017"
+        logo: "/assets/img/logos/msc.png"
       - title: "PhD"
         institute: "XYZ Institute"
-        year: "20XX – 20XX"
-        image: /assets/img/profile/timeline/phd.png
-
+        year: "2019"
+        logo: "/assets/img/logos/phd.png"
       - title: "Postdoc"
         institute: "XYZ Institute"
-        year: "20XX – Present"
-        image: /assets/img/profile/timeline/postdoc.png
+        year: "2024"
+        logo: "/assets/img/logos/postdoc.png"
 
     last_image: /assets/img/profile/timeline/end.png
 
