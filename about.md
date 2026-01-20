@@ -5,7 +5,7 @@ title: Profile
 sections:
   - type: profile_intro.html
     background_style: bg-dark
-    image: /assets/img/profile/profile.jpg
+    image: /assets/img/basil.jpg
     text: |
       Born in Kerala, India, in 1997, Basil Raju Karimadom is a computational chemist
       working in the field of theoretical and surface chemistry. He is currently a
