@@ -11078,138 +11078,116 @@ header.masthead h1, header.masthead .h1 {
   font-size: 1rem;
   font-weight: 400;
 }
-/* ---- Horizontal Ribbon Timeline ---- */
+/* ===== Horizontal Zig-Zag Ribbon Timeline (Professional) ===== */
+
 .timeline-ribbon-wrap{
   position: relative;
-  padding: 3.5rem 0 2.5rem 0;
+  padding: 3.5rem 0;
 }
 
-/* The central ribbon bar */
 .timeline-ribbon{
   position: absolute;
   left: 0;
   right: 0;
   top: 50%;
-  height: 14px;
   transform: translateY(-50%);
+  height: 14px;
   border-radius: 999px;
-  background: linear-gradient(90deg, #1aa6a6 0%, #2b7bbf 50%, #6a5bd6 100%);
+  background: linear-gradient(90deg, #1aa6a6 0%, #2b7bbf 55%, #6a5bd6 100%);
   opacity: 0.95;
 }
 
-/* Arrow head at the right end (newest side) */
+/* arrow head on RIGHT */
 .timeline-ribbon::after{
   content: "";
   position: absolute;
   right: -22px;
   top: 50%;
   transform: translateY(-50%);
-  width: 0;
-  height: 0;
+  width: 0; height: 0;
   border-top: 18px solid transparent;
   border-bottom: 18px solid transparent;
   border-left: 22px solid #6a5bd6;
 }
 
-/* Items laid out across the ribbon */
 .timeline-ribbon-items{
   position: relative;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1.25rem;
+  gap: 1.5rem;
   align-items: center;
 }
 
-/* Each milestone */
 .timeline-item{
   position: relative;
-  min-height: 240px;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: 1fr auto 1fr; /* top / connector / bottom */
   align-items: center;
+  justify-items: center;
+  min-height: 260px;
 }
 
-/* Top vs bottom arrangement */
-.timeline-item.is-top{
-  justify-content: flex-end;
-  padding-bottom: 1.2rem;
-}
-.timeline-item.is-bottom{
-  justify-content: flex-start;
-  padding-top: 1.2rem;
-}
-
-/* Connector line from ribbon to circle */
-.timeline-dotline{
+/* connector to the ribbon */
+.timeline-connector{
   width: 2px;
-  height: 44px;
+  height: 52px;
   background: rgba(255,255,255,0.45);
 }
 
-/* Circle with logo */
-.timeline-circle{
-  width: 96px;
-  height: 96px;
-  border-radius: 50%;
-  background: rgba(255,255,255,0.92);
+/* top and bottom zones */
+.timeline-top, .timeline-bottom{
+  width: 100%;
   display: flex;
-  align-items: center;
   justify-content: center;
-  box-shadow: 0 10px 24px rgba(0,0,0,0.20);
-  overflow: hidden;
-}
-.timeline-circle img{
-  width: 72%;
-  height: 72%;
-  object-fit: contain;
 }
 
-/* Text block (matches your "keep text style same") */
+/* Content block */
 .timeline-content{
   text-align: center;
   max-width: 220px;
-  margin-bottom: 0.75rem;
-}
-.timeline-item.is-bottom .timeline-content{
-  margin-bottom: 0;
-  margin-top: 0.75rem;
 }
 
 .timeline-year{
-  font-size: 2.25rem;
+  font-size: 2.2rem;
   font-weight: 800;
   letter-spacing: 1px;
-  color: #ffffff;
+  color: #fff;
   line-height: 1;
   margin-bottom: 0.35rem;
 }
+
 .timeline-title{
   font-weight: 700;
 }
+
 .timeline-inst{
   opacity: 0.9;
 }
 
-/* Responsive: stack nicely on mobile */
+/* LOGO ONLY (no circle, no border) */
+.timeline-logo{
+  width: 92px;          /* adjust if you want bigger/smaller */
+  height: 92px;
+  object-fit: contain;
+  filter: drop-shadow(0 10px 18px rgba(0,0,0,0.20));
+}
+
+/* Responsive */
 @media (max-width: 992px){
   .timeline-ribbon-items{
     grid-template-columns: 1fr 1fr;
-    row-gap: 2rem;
+    row-gap: 2.25rem;
   }
-  .timeline-item{ min-height: 220px; }
+  .timeline-item{ min-height: 240px; }
 }
+
 @media (max-width: 576px){
-  .timeline-ribbon{
-    display: none; /* cleaner on very small screens */
-  }
-  .timeline-ribbon-items{
-    grid-template-columns: 1fr;
-  }
-  .timeline-dotline{
-    display: none;
-  }
+  .timeline-ribbon{ display: none; }
+  .timeline-ribbon-items{ grid-template-columns: 1fr; }
   .timeline-item{
+    grid-template-rows: auto auto; /* simpler stack */
     min-height: auto;
-    padding: 1rem 0;
+    padding: 1.25rem 0;
   }
+  .timeline-connector{ display: none; }
 }
