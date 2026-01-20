@@ -6,7 +6,7 @@ header:
 - title: Home
   url: /#home
 - title: Profile
-  url: /#profile
+  url: /about
 - title: Research
   url: /#research
 - title: Publications
