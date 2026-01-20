@@ -67,10 +67,10 @@ sections:
         url: "https://linkedin.com/in/basilkarimadom"
 
       - name: ORCID
-        icon: ai-orcid
+        icon: ai ai-orcid
         url: "https://orcid.org/0000-0002-1674-7796"
 
       - name: Web of Science
-        icon: ai-researcherid
+        icon: ai ai-researcherid
         url: "https://www.webofscience.com/wos/author/record/JTU-5476-2023"
 ---
